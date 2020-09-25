@@ -1,10 +1,10 @@
 {
-  "name": "kevinem/adobe-sign-laravel",
+  "name": "killer-kent/adobe-sign-laravel",
   "description": "Adobe Sign Client for Laravel 5",
   "require": {
     "php": ">=5.5.0",
     "kevinem/adobe-sign-php": "^0.2.0",
-    "illuminate/support": "^5.2"
+    "illuminate/support": "7.28.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.4",
@@ -13,18 +13,18 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Kevin Em",
-      "email": "kevinem@thinkdevise.com"
+      "name": "Dave Kent",
+      "email": "mr.dave.kent@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "KevinEm\\AdobeSignLaravel\\": "src/"
+      "killer-kent\\AdobeSignLaravel\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "KevinEm\\AdobeSignLaravel\\Tests\\": "tests/"
+      "killer-kent\\AdobeSignLaravel\\Tests\\": "tests/"
     }
   }
 }
